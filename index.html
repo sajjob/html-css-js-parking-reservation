@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Parking</title>
+  </head>
+  <body>
+    <!--Home Page NavBar-->
+    <header class="header">
+      <nav class="nav-bar">
+        <a class="nav-item" href="./index.html">Home</a>
+        <a class="nav-item" href="about.html">About</a>
+      </nav>
+    </header>
+    <!--Create Account-->
+    <section class="account-container">
+      <h3>Create Account</h3>
+      <p>Save Your Info on LocalStorage</p>
+      <form action="">
+        <input
+          type="text"
+          id="username"
+          placeholder="Username"
+          value=""
+        /><br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          value=""
+        /><br />
+        <input type="hidden" id="id" value="" />
+        <button type="submit" id="createBtn" class="btn">Create Account</button>
+      </form>
+      <div class="create-backdrop"></div>
+      <br />
+      <br />
+      <br />
+      <p>
+        First You must create account. Then Login and reserve Your hours and Your
+        Place in Parking!
+      </p>
+    </section>
+
+    <div class="login">
+        <input type="text" id="loginUsername" placeholder="UserName">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <button class="btn" id="loginBtn">Login</button>
+    </div>
+
+    <section class="user-info-container">
+      <!--Create h2 & p For username and password with js-->
+      <!--LogOut-->
+      <button id="reserv" class="btn">Reserv</button>
+      <button id="logoutBtn" class="btn">Log Out</button>
+    </section>
+
+    <!--Parking Home-->
+    <section class="parking-container">
+        <div class="parking">
+            <div class="park">Park 1</div>
+            <div class="park">Park 2</div>
+            <div class="park">Park 3</div>
+            <div class="park">Park 4</div>
+            <div class="park">Park 5</div>
+            <div class="park">Park 6</div>
+            <div class="park">Park 7</div>
+            <div class="park">Park 8</div>
+            <div class="park">Park 9</div>
+            <div class="park">Park 10</div>
+            <div class="park">Park 11</div>
+            <div class="park">Park 12</div>
+            <div class="park">Park 13</div>
+            <div class="park">Park 14</div>
+            <div class="park">Park 15</div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
